@@ -31,6 +31,9 @@ function Tabs() {
       <section className="tab__section">
         <Info data={data} />
       </section>
+      <div className="main__button">
+        <button className="primary__btn">more info</button>
+      </div>
     </>
   );
 }

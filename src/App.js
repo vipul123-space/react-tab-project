@@ -6,9 +6,6 @@ function App() {
     <>
       <Title />
       <Tabs />
-      <div className="main__button">
-        <button className="primary__btn">more info</button>
-      </div>
     </>
   );
 }

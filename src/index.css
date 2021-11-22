@@ -62,10 +62,16 @@ body {
   line-height: 2rem;
   letter-spacing: 0.1rem;
 }
+.items {
+  display: grid;
+  grid-template-columns: 1fr 10fr;
+}
 .items:not(:last-child) {
   margin-bottom: 2rem;
 }
-
+.bi {
+  color: #2caeba;
+}
 .toggle__section {
   display: flex;
   flex-direction: column;
@@ -107,4 +113,15 @@ body {
   color: #044e53;
   background-color: #88ebf2;
   cursor: pointer;
+}
+.loading {
+  position: absolute;
+  font-size: 3rem;
+  height: 20rem;
+  color: #88ebf2;
+  width: 40rem;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
